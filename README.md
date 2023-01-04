@@ -1,8 +1,9 @@
 ## Creacion de modelos en Django
 ---
 Ahora que ya tenemos la conexión realizada a nuestra base de datos, podemos empezar a crear nuestros modelos en Django, para este ejemplo usaremos de referencia las siguientes tablas.
-![[static/img/20230104165918.png]]
-![[static/img/20230104170009.png]]
+
+![img_1](20230104165918.png)
+![img_2](20230104170009.png)
 
 Entonces, para crear un modelo en Django, hacemos lo siguiente.
 
@@ -230,3 +231,4 @@ Muy interesante, ¿No?
  4. Del modelo `Proyecto` crea un modelo proxy, el cual ordena los registros por el tema del proyecto.
 
 
+URL Diapositivas: [Diapositivas](https://docs.google.com/presentation/d/e/2PACX-1vQ_9-CUfVel1v03YMndAbRXbi3iWDJppaKFaPVkQKajKLDHaBdkD3uLhsPxfYg0ZjkZrc-endWQxTqM/embed?start=false&loop=false&delayms=3000)
