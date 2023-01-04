@@ -232,3 +232,7 @@ Muy interesante, ¿No?
 
 
 URL Diapositivas: [Diapositivas](https://docs.google.com/presentation/d/e/2PACX-1vQ_9-CUfVel1v03YMndAbRXbi3iWDJppaKFaPVkQKajKLDHaBdkD3uLhsPxfYg0ZjkZrc-endWQxTqM/embed?start=false&loop=false&delayms=3000)
+
+URL's Youtube:
+    - [Teoria](https://www.youtube.com/watch?v=SJF2w4SsM-8&list=PLxI5H7lUXWhjV-yCSEuJXxsDmNESrvbw3&index=4&ab_channel=Silabuz)
+    - [Practica](https://www.youtube.com/watch?v=9tjcQyUgceE&list=PLxI5H7lUXWhjV-yCSEuJXxsDmNESrvbw3&index=5&ab_channel=Silabuz)
