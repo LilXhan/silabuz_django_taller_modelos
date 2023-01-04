@@ -35,8 +35,39 @@ class Student(Person):
         db_table = 'students'
 
     
-
 class OrderedAlumn(Student):
     class Meta: 
         proxy = True 
         ordering = ["last_name"]
+
+
+# Tarea
+
+class Evaluation(models.Model):
+    date = models.DateTimeField(auto_now=True)
+    course = models.CharField(max_length=30)
+    evaluator = models.CharField(max_length=50)
+
+    class Meta:
+        abstract = True
+
+
+class ExamFinal(Evaluation):
+    exam_duration = models.IntegerField(default=0)
+    questions = models.IntegerField(default=0)
+    score = models.IntegerField(default=0)
+
+
+    def question_score(self):
+        return self.questions / self.score
+    
+
+class Project(Evaluation):
+    project_theme = models.CharField(max_length=100)
+    groups_numbers = models.IntegerField(default=0)
+
+
+class ProjectProxy(Project):
+    class Meta:
+        proxy = True
+        ordering = ["project_theme"]
